@@ -2,7 +2,7 @@
     	    onScreen: function(location){
     	    	var 	scrollTop = $(window).scrollTop(),
         		offset = $(this).offset().top,
-        		distance = (elementOffset - scrollTop);
+        		distance = (offset - scrollTop);
         		
         	  switch(location){
           		case 'bottom': location = 1; break;
