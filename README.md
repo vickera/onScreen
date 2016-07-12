@@ -1,2 +1,6 @@
 # onScreen
-Checks if the selected DOM element is on screen and where. 
+
+Usage:
+$('#element').onScreen('position');
+Where 'position' is 'bottom', 'mid', or 'top'. 
+Returns true/false. 
